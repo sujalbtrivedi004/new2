@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body id="Home">
+    <nav>
+        <div class="icon">
+            <img src="image/solidarity.png">
+        </div>
+        <label for="hospital">ASSP Hospital</label>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#secondcard">About</a></li>
+            <li><a href="#contactus">Contact</a></li>
+            <li>
+                <form action="loginpage.php" method="post" name="formlogin" id="formlogin">
+                    <select name="login" id="login" onchange="myfunction()">
+                        <option value="null" disabled selected>Login</option>
+                        <option value="patient" onselect="this.form.submit()">User</option>
+                        <option value="doctor">Doctor</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </form>
+            </li>
+        </ul>
+    </nav>
+    <div class="callnow">
+        <p>Emergency Number&nbsp;&nbsp; 835-587-6825</p>
+    </div>
+    <!-- <div class="imagecontainer_main">
+         <img src="image/head1.jpeg">
+    </div> -->
+    <div class="firstcard">
+        <div class="headerdiv">
+            <div class="headerdiv_icon">
+                <img src="image/solidarity.png" class="icon_image">
+            </div>
+            <div class="headerdiv_name">
+                <h1>Assp Hospital</h1>
+                <p>kothrud,pune</p>
+            </div>
+
+            <div class="secondcard_text">
+                <div style="width: 100%;">
+                    <h4>The pain itself is very important, and it will be followed. For I came to the smallest </h4>
+                </div>
+                <div class="secondcard_text2">
+                    <p>The customer is very happy</p>
+                    <p> Adipisicion will be obtained, but I do</p>
+                    <p>They fall in the same time as labor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secondcard" id="secondcard">
+        <div class="secondcard_image-size">
+            <img src="image/hm1.jpeg" alt="">
+        </div>
+        <div class="Aboutus_text">
+            <div style="width: 100%; text-align: center; ">
+                <h1>Departments</h1>
+            </div>
+            <div class="Aboutus_text2">
+                <div class="department_menu">
+                    <a href="#cardiology">Cardiology</a>
+                </div>
+                <div class="department_menu">
+                    <a href="#General">Dentist</a>
+                </div>
+                <div class="department_menu">
+                    <a href="#Neurology">Neurology</a>
+                </div>
+                <div class="department_menu">
+                    <a href="#Pediatrician">Pediatrician</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="department_cards" id="cardiology">
+        <div class="department_heading">
+            <h1>Cardiology</h1>
+        </div>
+        <div class="deparment_secondary_card">
+            <div class="secondcard_image-size">
+                <img src="image/hm3.jpeg" alt="">
+            </div>
+            <div class="department_content">
+                The term cardiology is derived from the Greek words “cardia,” which refers to the heart and “logy”
+                meaning “study of.” Cardiology is a branch of medicine that concerns diseases and disorders of the
+                heart, which may range from congenital defects through to acquired heart diseases such as coronary
+                artery disease and congestive heart failure.
+
+                Physicians who specialize in cardiology are called cardiologists and they are responsible for the
+                medical management of various heart diseases. Cardiac surgeons are the specialist physicians who perform
+                surgical procedures to correct heart disorders.
+            </div>
+        </div>
+    </div>
+    <div class="department_cards" id="General">
+        <div class="department_heading">
+            <h1>Dentist</h1>
+        </div>
+        <div class="deparment_secondary_card" id="general">
+            <div class="secondcard_image-size">
+                <img src="image/hm14.jpeg" alt="">
+            </div>
+            <div class="department_content">
+                A dentist has many responsibilities, and one of the most important is promoting good dental hygiene.
+                This helps to prevent complications in your mouth or other parts of the body.
+
+                A dentist also diagnoses and treats problems of the gums, teeth, and mouth. Dentists use modern
+                technology and equipment like X-ray machines, lasers, drills, brushes, scalpels, and other medical tools
+                when performing dental procedures. They also wear protective equipment like gloves, masks, and safety
+                glasses to prevent the spread of germs or bacteria. </div>
+        </div>
+    </div>
+    <div class="department_cards" id="Pediatrician">
+        <div class="department_heading">
+            <h1>Pediatrician</h1>
+        </div>
+        <div class="deparment_secondary_card">
+            <div class="secondcard_image-size">
+                <img src="image/hm12.jpeg" alt="">
+            </div>
+            <div class="department_content">
+                A pediatrician is a doctor who focuses on the health of infants, children, adolescents and young adults.
+                Pediatric care starts at birth and lasts through a child’s 21st birthday or longer. Pediatricians
+                prevent, detect and manage physical, behavioral and developmental issues that affect children. Some
+                pediatricians work in general practice. Others specialize in treating children with specific health
+                conditions.
+
+                Pediatricians undergo extensive education and training. First, they must get a four-year undergraduate
+                degree. During undergrad, they take pre-medical courses such as biology and chemistry
+            </div>
+        </div>
+    </div>
+    <div class="department_cards" id="Neurology">
+        <div class="department_heading">
+            <h1>Neurology</h1>
+        </div>
+        <div class="deparment_secondary_card" id="neurology">
+            <div class="secondcard_image-size">
+                <img src="image/hm10.jpeg" alt="">
+            </div>
+            <div class="department_content">
+                A neurologist is a physician specializing in neurology and trained to investigate, diagnose and treat
+                neurological disorders. Neurologists treat a myriad of neurologic conditions, including stroke,
+                seizures, movement disorders such as Parkinson's disease, autoimmune neurologic disorders such as
+                multiple sclerosis, headache disorders like migraine and dementias such as Alzheimer's disease.
+                Neurologists may also be involved in clinical research, clinical trials, and basic or translational
+                research. While neurology is a nonsurgical specialty, its corresponding surgical specialty is
+                neurosurgery.
+            </div>
+        </div>
+    </div>
+    <div class="contactus" id="contactus">
+        <div class="contactheading">
+            <h2>Leave us a Message</h2>
+        </div>
+        <div class="contactform">
+            <form action="feedback.php" method="post">
+                <div class="contactpersonal">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                    <label for="contact">Contact</label>
+                    <input type="number" name="contact" id="contact" required>
+                </div>
+                <div class="contactmessage">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
+                </div>
+                <div class="contactbtn">
+                    <button type="submit" name="contact_submit" class="submit_contact">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="secondlast">
+        <center><a href="#Home">&#8657;&nbsp;Top</a></center>
+    </div>
+    <div class="pagefooter" id="footer">
+        <div class="pagefooterbox1">
+            <h1>Contact details</h1>
+            <br>
+            <table>
+                <tr>
+                    <td>contact no.</td>
+                    <td>835-587-6825</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><a href="mailto:prab8600@gmail.com"></a>Assphospital@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Adress</td>
+                    <td>
+                        <address>Bharti nagar, kothrud<br>pune , Maharashtra </address>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="pagefooterbox2">
+            <h1>Disclaimer</h1>
+            <br>
+            <p>This is a hospital appointment booking system project.
+                It is a third year capstone project of our group for the Academic year 2022 - 2023
+                the project is build using Html , css , PHP</p>
+            <br>
+            <p>Team Members of our Group :-</p>
+            <div style="text-align: left;">
+                <ol>
+                    <li>Shreyas Surve</li>
+                    <li>Shashikant Surve</li>
+                    <li>Prabhat Singh</li>
+                    <li>Altaf Jhamkhandi</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script>
+        function myfunction() {
+            var form1 = document.getElementById("formlogin");
+            form1.submit();
+            form1.reset();
+        }
+    </script>
+</body>
+
+</html>
